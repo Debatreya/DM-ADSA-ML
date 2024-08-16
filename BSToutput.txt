@@ -1,0 +1,36 @@
+BST : BFS Traversal: 
+50 
+30 70 
+20 40 60 80 
+45 75 90 
+BST : Inorder Traversal: 
+20 30 40 45 50 60 70 75 80 90 
+BST : Postorder Traversal: 
+20 45 40 30 60 75 90 80 70 50 
+BST : Preorder Traversal: 
+50 30 20 40 45 70 60 80 75 90 
+Search for a value: 40
+Value found: 40
+Delete a node: 45 (leaf node)
+50 
+30 70 
+20 40 60 80 
+75 90 
+Delete a node: 40 (node with one child)
+50 
+30 70 
+20 60 80 
+75 90 
+Delete a node: 70 (node with two children)
+50 
+30 75 
+20 60 80 
+90 
+Search for a value: 70
+Value not found
+BST : Final Inorder Traversal: 
+20 30 50 60 75 80 90 
+BST : Final Postorder Traversal: 
+20 30 60 90 80 75 50 
+BST : Final Preorder Traversal: 
+50 30 20 75 60 80 90 
