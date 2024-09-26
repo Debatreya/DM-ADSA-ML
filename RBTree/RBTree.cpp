@@ -135,15 +135,19 @@ private:
         q.push(root);
 
         while (!q.empty()) {
-            Node* temp = q.front();
-            cout << temp->data << "(" << (temp->color == RED ? "R" : "B") << ") ";
-            q.pop();
+            int size = q.size();
+            while (size--) {
+                Node* temp = q.front();
+                cout << temp->data << "(" << (temp->color == RED ? "R" : "B") << ") ";
+                q.pop();
 
-            if (temp->left != nullptr)
-                q.push(temp->left);
+                if (temp->left != nullptr)
+                    q.push(temp->left);
 
-            if (temp->right != nullptr)
-                q.push(temp->right);
+                if (temp->right != nullptr)
+                    q.push(temp->right);
+            }
+            cout << endl;  // Move to the next level
         }
     }
 
@@ -172,6 +176,16 @@ private:
         postorderHelper(root->left);
         postorderHelper(root->right);
         cout << root->data << "(" << (root->color == RED ? "R" : "B") << ") ";
+    }
+
+    Node* searchHelper(Node* root, int key) {
+        if (root == nullptr || root->data == key)
+            return root;
+
+        if (key < root->data)
+            return searchHelper(root->left, key);
+
+        return searchHelper(root->right, key);
     }
 
 public:
@@ -203,6 +217,11 @@ public:
         return root;
     }
 
+    // Search function
+    Node* search(int key) {
+        return searchHelper(root, key);
+    }
+
     // Traversal functions
     void levelOrder() { levelOrderHelper(root); }
     void inorder() { inorderHelper(root); }
@@ -216,7 +235,7 @@ int main() {
     int value;
 
     while (true) {
-        cout << "\nEnter command (I/i: Insert, D/d: Delete, T/t: Traverse, E/e: Exit): ";
+        cout << "\nEnter command (I/i: Insert, D/d: Delete, S/s: Search, T/t: Traverse, E/e: Exit): ";
         cin >> command;
 
         if (command == 'I' || command == 'i') {
@@ -226,6 +245,15 @@ int main() {
         }
         else if (command == 'D' || command == 'd') {
             cout << "Deletion not implemented in this version.\n";
+        }
+        else if (command == 'S' || command == 's') {
+            cout << "Enter value to search: ";
+            cin >> value;
+            Node* result = tree.search(value);
+            if (result != nullptr)
+                cout << "Node with value " << value << " found with color: " << (result->color == RED ? "Red" : "Black") << "\n";
+            else
+                cout << "Node with value " << value << " not found\n";
         }
         else if (command == 'T' || command == 't') {
             char traversalType;
