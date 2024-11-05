@@ -1,0 +1,6 @@
+Enter the text: AABAACAADAABAABA
+Enter the pattern to search: AABA
+Enter the prime number (q): 101
+Pattern found at index 0
+Pattern found at index 9
+Pattern found at index 12

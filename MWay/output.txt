@@ -1,0 +1,57 @@
+Insertion
+
+Inserting 50
+Inserting 60
+Inserting 80
+Inserting 30
+Inserting 35
+Inserting 58
+Inserting 59
+Inserting 63
+Inserting 70
+Inserting 73
+Inserting 96
+Inserting 52
+Inserting 54
+Inserting 61
+Inserting 62
+Inserting 57
+Inserting 55
+Inserting 56
+Inserting 53
+
+Traversal
+30  50  60  80  
+35  52  54  58  59  61  63  70  73  96  
+53  55  56  57  
+62  
+
+height is:3
+
+Deletion
+
+Deleting 63
+item found and deleted.
+30  50  60  80  
+35  52  54  58  59  61  70  73  96  
+53  55  56  57  
+62  
+
+
+Deleting 62
+item found and deleted.
+30  50  60  80  
+35  52  54  58  59  61  70  73  96  
+53  55  56  57  
+
+Deleting 96
+item found and deleted.
+30  50  60  80  
+35  52  54  58  59  61  70  73  
+53  55  56  57  
+
+Deleting 52
+item found and deleted.
+30  50  60  80  
+35  53  54  58  59  61  70  73  
+55  56  57  

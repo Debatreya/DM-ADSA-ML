@@ -1,0 +1,35 @@
+Enter the size of the Array: 8
+Enter the elements of the Array: 12.4 12.5 19.9 10.67 15.8 23.9 90 51.34
+Left: 0 Right: 7
+After Partition: 10.67 12.4 19.9 12.5 15.8 23.9 90 51.34 
+	Pivot: 1
+Left: 0 Right: 0
+After Left Part: 10.67 12.4 19.9 12.5 15.8 23.9 90 51.34 
+Left: 2 Right: 7
+After Partition: 10.67 12.4 15.8 12.5 19.9 23.9 90 51.34 
+	Pivot: 4
+Left: 2 Right: 3
+After Partition: 10.67 12.4 12.5 15.8 19.9 23.9 90 51.34 
+	Pivot: 3
+Left: 2 Right: 2
+After Left Part: 10.67 12.4 12.5 15.8 19.9 23.9 90 51.34 
+Left: 4 Right: 3
+After Right Part: 10.67 12.4 12.5 15.8 19.9 23.9 90 51.34 
+After Left Part: 10.67 12.4 12.5 15.8 19.9 23.9 90 51.34 
+Left: 5 Right: 7
+After Partition: 10.67 12.4 12.5 15.8 19.9 23.9 90 51.34 
+	Pivot: 5
+Left: 5 Right: 4
+After Left Part: 10.67 12.4 12.5 15.8 19.9 23.9 90 51.34 
+Left: 6 Right: 7
+After Partition: 10.67 12.4 12.5 15.8 19.9 23.9 51.34 90 
+	Pivot: 7
+Left: 6 Right: 6
+After Left Part: 10.67 12.4 12.5 15.8 19.9 23.9 51.34 90 
+Left: 8 Right: 7
+After Right Part: 10.67 12.4 12.5 15.8 19.9 23.9 51.34 90 
+After Right Part: 10.67 12.4 12.5 15.8 19.9 23.9 51.34 90 
+After Right Part: 10.67 12.4 12.5 15.8 19.9 23.9 51.34 90 
+After Right Part: 10.67 12.4 12.5 15.8 19.9 23.9 51.34 90 
+
+Sorted Array: 10.67 12.4 12.5 15.8 19.9 23.9 51.34 90 

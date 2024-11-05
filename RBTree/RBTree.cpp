@@ -188,6 +188,152 @@ private:
         return searchHelper(root->right, key);
     }
 
+    void deleteNodeHelper(Node* &root, Node* v) {
+        Node* u = BSTreplace(v);
+        bool uvBlack = ((u == nullptr || u->color == BLACK) && (v->color == BLACK));
+        Node* parent = v->parent;
+
+        if (u == nullptr) {
+            // v is a leaf node
+            if (v == root) {
+                root = nullptr;
+            } else {
+                if (uvBlack) {
+                    fixDoubleBlack(root, v);
+                } else {
+                    if (sibling(v) != nullptr)
+                        sibling(v)->color = RED;
+                }
+
+                if (v == parent->left) {
+                    parent->left = nullptr;
+                } else {
+                    parent->right = nullptr;
+                }
+            }
+            delete v;
+            return;
+        }
+
+        if (v->left == nullptr || v->right == nullptr) {
+            // v has one child
+            if (v == root) {
+                v->data = u->data;
+                v->left = v->right = nullptr;
+                delete u;
+            } else {
+                if (v == parent->left) {
+                    parent->left = u;
+                } else {
+                    parent->right = u;
+                }
+                delete v;
+                u->parent = parent;
+                if (uvBlack) {
+                    fixDoubleBlack(root, u);
+                } else {
+                    u->color = BLACK;
+                }
+            }
+            return;
+        }
+
+        // v has two children, swap data with successor and delete successor
+        swapValues(u, v);
+        deleteNodeHelper(root, u);
+    }
+
+    Node* successor(Node* x) {
+        Node* current = x;
+        while (current->left != nullptr) {
+            current = current->left;
+        }
+        return current;
+    }
+
+
+    Node* BSTreplace(Node* x) {
+        if (x->left != nullptr && x->right != nullptr)
+            return successor(x->right);
+        if (x->left == nullptr && x->right == nullptr)
+            return nullptr;
+        return (x->left != nullptr) ? x->left : x->right;
+    }
+
+    void fixDoubleBlack(Node* &root, Node* x) {
+        if (x == root)
+            return;
+
+        Node* siblingNode = sibling(x);
+        Node* parent = x->parent;
+
+        if (siblingNode == nullptr) {
+            fixDoubleBlack(root, parent);
+        } else {
+            if (siblingNode->color == RED) {
+                parent->color = RED;
+                siblingNode->color = BLACK;
+                if (siblingNode == parent->left) {
+                    rotateRight(root, parent);
+                } else {
+                    rotateLeft(root, parent);
+                }
+                fixDoubleBlack(root, x);
+            } else {
+                if (hasRedChild(siblingNode)) {
+                    if (siblingNode->left != nullptr && siblingNode->left->color == RED) {
+                        if (siblingNode == parent->left) {
+                            siblingNode->left->color = siblingNode->color;
+                            siblingNode->color = parent->color;
+                            rotateRight(root, parent);
+                        } else {
+                            siblingNode->left->color = parent->color;
+                            rotateRight(root, siblingNode);
+                            rotateLeft(root, parent);
+                        }
+                    } else {
+                        if (siblingNode == parent->left) {
+                            siblingNode->right->color = parent->color;
+                            rotateLeft(root, siblingNode);
+                            rotateRight(root, parent);
+                        } else {
+                            siblingNode->right->color = siblingNode->color;
+                            siblingNode->color = parent->color;
+                            rotateLeft(root, parent);
+                        }
+                    }
+                    parent->color = BLACK;
+                } else {
+                    siblingNode->color = RED;
+                    if (parent->color == BLACK) {
+                        fixDoubleBlack(root, parent);
+                    } else {
+                        parent->color = BLACK;
+                    }
+                }
+            }
+        }
+    }
+
+    Node* sibling(Node* node) {
+        if (node->parent == nullptr)
+            return nullptr;
+        if (node == node->parent->left)
+            return node->parent->right;
+        return node->parent->left;
+    }
+
+    bool hasRedChild(Node* node) {
+        return (node->left != nullptr && node->left->color == RED) ||
+               (node->right != nullptr && node->right->color == RED);
+    }
+
+    void swapValues(Node* u, Node* v) {
+        int temp = u->data;
+        u->data = v->data;
+        v->data = temp;
+    }
+
 public:
     RedBlackTree() { root = nullptr; }
 
@@ -227,69 +373,103 @@ public:
     void inorder() { inorderHelper(root); }
     void preorder() { preorderHelper(root); }
     void postorder() { postorderHelper(root); }
+
+    // Delete function
+    void deleteNode(int data) {
+        Node* nodeToDelete = searchHelper(root, data);
+        if (nodeToDelete == nullptr) {
+            cout << "Node not found in the tree.\n";
+            return;
+        }
+        deleteNodeHelper(root, nodeToDelete);
+    }
+
 };
 
-int main() {
+int main(){
     RedBlackTree tree;
-    char command;
-    int value;
+    vector<int> arr = {3, 7, 12, 15, 20, 25, 40, 45, 50, 60};
 
-    while (true) {
-        cout << "\nEnter command (I/i: Insert, D/d: Delete, S/s: Search, T/t: Traverse, E/e: Exit): ";
-        cin >> command;
+    // Inserting elements in the tree
+    cout<<"Inserting elements in the tree:\n";
+    for (int i = 0; i < arr.size(); i++){
+        cout << "Inserting " << arr[i] << ":\n";
+        tree.insert(arr[i]);
+        tree.levelOrder();
+    }
 
-        if (command == 'I' || command == 'i') {
-            cout << "Enter value to insert: ";
-            cin >> value;
-            tree.insert(value);
-        }
-        else if (command == 'D' || command == 'd') {
-            cout << "Deletion not implemented in this version.\n";
-        }
-        else if (command == 'S' || command == 's') {
-            cout << "Enter value to search: ";
-            cin >> value;
-            Node* result = tree.search(value);
-            if (result != nullptr)
-                cout << "Node with value " << value << " found with color: " << (result->color == RED ? "Red" : "Black") << "\n";
-            else
-                cout << "Node with value " << value << " not found\n";
-        }
-        else if (command == 'T' || command == 't') {
-            char traversalType;
-            cout << "Enter traversal type (l: Level Order, p: Preorder, o: Postorder, i: Inorder): ";
-            cin >> traversalType;
-
-            switch (traversalType) {
-            case 'l':
-                cout << "Level Order Traversal:\n";
-                tree.levelOrder();
-                break;
-            case 'p':
-                cout << "Preorder Traversal:\n";
-                tree.preorder();
-                break;
-            case 'o':
-                cout << "Postorder Traversal:\n";
-                tree.postorder();
-                break;
-            case 'i':
-                cout << "Inorder Traversal:\n";
-                tree.inorder();
-                break;
-            default:
-                cout << "Invalid traversal type\n";
-                break;
-            }
-        }
-        else if (command == 'E' || command == 'e') {
-            cout << "Exiting...\n";
-            break;
-        }
-        else {
-            cout << "Invalid command. Try again.\n";
-        }
+    // Deleting elements from the tree
+    cout<<"Deleting elements from the tree:\n";
+    for (int i = 0; i < arr.size(); i++){
+        cout << "Deleting " << arr[i] << ":\n";
+        tree.deleteNode(arr[i]);
+        tree.levelOrder();
     }
 
     return 0;
 }
+
+// int main() {
+//     RedBlackTree tree;
+//     char command;
+//     int value;
+
+//     while (true) {
+//         cout << "\nEnter command (I/i: Insert, D/d: Delete, S/s: Search, T/t: Traverse, E/e: Exit): ";
+//         cin >> command;
+
+//         if (command == 'I' || command == 'i') {
+//             cout << "Enter value to insert: ";
+//             cin >> value;
+//             tree.insert(value);
+//         }
+//         else if (command == 'D' || command == 'd') {
+//             cout << "Deletion not implemented in this version.\n";
+//         }
+//         else if (command == 'S' || command == 's') {
+//             cout << "Enter value to search: ";
+//             cin >> value;
+//             Node* result = tree.search(value);
+//             if (result != nullptr)
+//                 cout << "Node with value " << value << " found with color: " << (result->color == RED ? "Red" : "Black") << "\n";
+//             else
+//                 cout << "Node with value " << value << " not found\n";
+//         }
+//         else if (command == 'T' || command == 't') {
+//             char traversalType;
+//             cout << "Enter traversal type (l: Level Order, p: Preorder, o: Postorder, i: Inorder): ";
+//             cin >> traversalType;
+
+//             switch (traversalType) {
+//             case 'l':
+//                 cout << "Level Order Traversal:\n";
+//                 tree.levelOrder();
+//                 break;
+//             case 'p':
+//                 cout << "Preorder Traversal:\n";
+//                 tree.preorder();
+//                 break;
+//             case 'o':
+//                 cout << "Postorder Traversal:\n";
+//                 tree.postorder();
+//                 break;
+//             case 'i':
+//                 cout << "Inorder Traversal:\n";
+//                 tree.inorder();
+//                 break;
+//             default:
+//                 cout << "Invalid traversal type\n";
+//                 break;
+//             }
+//         }
+//         else if (command == 'E' || command == 'e') {
+//             cout << "Exiting...\n";
+//             break;
+//         }
+//         else {
+//             cout << "Invalid command. Try again.\n";
+//         }
+//     }
+
+//     return 0;
+// }

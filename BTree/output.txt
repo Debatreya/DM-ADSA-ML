@@ -1,0 +1,35 @@
+BTree of order 3, which stores int data
+Inserting 1
+Inserting 5
+Inserting 0
+Inserting 4
+Inserting 3
+Inserting 2
+|1|4| 
+|0| |2|3| |5| 
+
+
+BTree of order 5, which stores char data
+Inserting G
+Inserting I
+Inserting B
+Inserting J
+Inserting C
+Inserting A
+Inserting K
+Inserting E
+Inserting D
+Inserting S
+Inserting T
+Inserting R
+Inserting L
+Inserting F
+Inserting H
+Inserting M
+Inserting N
+Inserting P
+Inserting Q
+|K| 
+|C|G| |N|R| 
+|A|B| |D|E|F| |H|I|J| |L|M| |P|Q| |S|T| 
+

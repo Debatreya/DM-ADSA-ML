@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 
-// Function to create the LPS (Longest Prefix Suffix) array
+// LPS (Longest Prefix Suffix) array
 void computeLPSArray(const string& pattern, vector<int>& lps) {
     int length = 0; // length of the previous longest prefix suffix
     lps[0] = 0;     // lps[0] is always 0
@@ -25,16 +25,25 @@ void computeLPSArray(const string& pattern, vector<int>& lps) {
             }
         }
     }
+
+    // Print the lps array
+    cout << "LPS array: ";
+    for (int i = 0; i < lps.size(); i++) {
+        cout << lps[i] << " ";
+    }
+    cout << endl;
 }
 
-// Function that performs KMP pattern matching
+// KMP pattern matching
 void KMPSearch(const string& text, const string& pattern) {
     int n = text.size();
     int m = pattern.size();
 
-    // Create lps[] that will hold the longest prefix suffix values for pattern
+    // lps[] -> It will hold the longest prefix suffix values for pattern
     vector<int> lps(m);
     computeLPSArray(pattern, lps);
+
+    cout<<"KMPSearch: "<<endl;
 
     int i = 0; // index for text[]
     int j = 0; // index for pattern[]
@@ -59,16 +68,28 @@ void KMPSearch(const string& text, const string& pattern) {
 }
 
 int main() {
+
     string text, pattern;
 
-    // Take input of text and pattern from the user
+    // Taking input of text and pattern from the user
     cout << "Enter the text: ";
     getline(cin, text);
     cout << "Enter the pattern: ";
     getline(cin, pattern);
 
-    // Perform KMP search
+    // KMP search
     KMPSearch(text, pattern);
+
+    // Printing the index and character of the text for better understanding
+    cout<<"Character and corresponding index of the text: "<<endl;
+    for(int i=0; i<text.size(); i++){
+        cout<<text[i]<<" "<<i<<endl;
+    }
+    cout<<endl;
 
     return 0;
 }
+
+// Testcase:
+// bacbababaabcbababacaabcbababacababacababaca
+// ababaca

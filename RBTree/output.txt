@@ -1,0 +1,85 @@
+Inserting elements in the tree:
+
+Inserting 3:
+3(B) 
+Inserting 7:
+3(B) 
+7(R) 
+Inserting 12:
+7(B) 
+3(R) 12(R) 
+Inserting 15:
+7(B) 
+3(B) 12(B) 
+15(R) 
+Inserting 20:
+7(B) 
+3(B) 15(B) 
+12(R) 20(R) 
+Inserting 25:
+7(B) 
+3(B) 15(R) 
+12(B) 20(B) 
+25(R) 
+Inserting 40:
+7(B) 
+3(B) 15(R) 
+12(B) 25(B) 
+20(R) 40(R) 
+Inserting 45:
+15(B) 
+7(R) 25(R) 
+3(B) 12(B) 20(B) 40(B) 
+45(R) 
+Inserting 50:
+15(B) 
+7(R) 25(R) 
+3(B) 12(B) 20(B) 45(B) 
+40(R) 50(R) 
+Inserting 60:
+15(B) 
+7(B) 25(B) 
+3(B) 12(B) 20(B) 45(R) 
+40(B) 50(B) 
+60(R) 
+
+
+Deleting elements from the tree:
+
+Deleting 3:
+25(B) 
+15(B) 45(B) 
+7(B) 20(B) 40(B) 50(B) 
+12(R) 60(R) 
+Deleting 7:
+25(B) 
+15(B) 45(B) 
+12(B) 20(B) 40(B) 50(B) 
+60(R) 
+Deleting 12:
+25(B) 
+15(B) 45(R) 
+20(R) 40(B) 50(B) 
+60(R) 
+Deleting 15:
+25(B) 
+20(B) 45(R) 
+40(B) 50(B) 
+60(R) 
+Deleting 20:
+45(B) 
+25(B) 50(B) 
+40(R) 60(R) 
+Deleting 25:
+45(B) 
+40(B) 50(B) 
+60(R) 
+Deleting 40:
+50(B) 
+45(B) 60(B) 
+Deleting 45:
+50(B) 
+60(R) 
+Deleting 50:
+60(B) 
+Deleting 60:
