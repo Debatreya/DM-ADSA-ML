@@ -1,0 +1,18 @@
+Loading the Data:
+
+The dataset is loaded using pd.read_csv.
+We print the first few rows and the data types to understand the structure.
+Data Splitting:
+
+We separate the features (X) and labels (y), and split the data into training and testing sets using train_test_split from scikit-learn.
+Euclidean Distance:
+
+We define the euclidean_distance function to compute the distance between two points.
+k-NN Algorithm:
+
+The knn_predict function calculates the distance from the test point to all training points, sorts them, and selects the k nearest neighbors.
+The most common label among the neighbors is chosen as the prediction.
+Prediction and Evaluation:
+
+We loop over the test set, making predictions for each data point, and store correct and incorrect predictions.
+Finally, we print both correct and incorrect predictions.
