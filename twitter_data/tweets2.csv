@@ -1,0 +1,97 @@
+tweet_id,created_at,text,author_id,conversation_id,in_reply_to_user_id,lang,possibly_sensitive,source,like_count,retweet_count,reply_count,quote_count,username,user_name,user_created_at,user_protected,user_verified,media_type,media_url,media_duration_ms,media_width,media_height,place_name,place_country,place_latitude,place_longitude,poll_duration_minutes,poll_end_time,poll_status,poll_options
+1900468334589620479,2025-03-14 08:45:34+00:00,"RT @OpenAI: OpenAI o1 and o3-mini now offer Python-powered data analysis in ChatGPT. 
+
+You can now ask these models to perform tasks like r…",1324755800590614528,1900468334589620479,,en,,,0,695,0,0,TassosDimitriu2,Tassos Dimitriou,2020-11-06 16:49:51+00:00,False,False,,,,,,,,,,,,,
+1900468304646754317,2025-03-14 08:45:27+00:00,ported lode's vandevenne's raycaster to pure python/tkinter (a builtin dependency) https://t.co/bPk3lXiGp6,1064634643511537664,1900468304646754317,,en,,,0,0,0,0,legendbelmondo,Goldman Sacks Inc.,2018-11-19 21:40:53+00:00,False,False,video,,11100,1920,1080,,,,,,,,
+1900468302809583921,2025-03-14 08:45:27+00:00,"RT @dataduck_: duckdb를 왜 mysql, postgreSQL과 비교를 해서 쓸모가 있다느니 없다느니 논의 하시는지 모르겠네요. duckdb 의 비교 대상은 pandas 입니다. 이름에 DB 가 들어간다고 DB가 아니에요. python…",104677542,1900468302809583921,,ko,,,0,28,0,0,taewooke,Taewook Eom (엄 태욱),2010-01-14 01:58:19+00:00,False,False,,,,,,,,,,,,,
+1900468294148120587,2025-03-14 08:45:24+00:00,@kawirabrenda231 Python 🐍🐍,1433820996470034434,1900463257162322361,1609965695890083841,cy,,,0,0,0,0,Eliakim_Ke,Musiala 🕷️,2021-09-03 15:58:50+00:00,False,False,,,,,,,,,,,,,
+1900468246337175688,2025-03-14 08:45:13+00:00,"📌 3ステップでできる！天気を自動取得 🚀
+
+毎朝の天気チェック、自動化しませんか？☀️🌧️
+3ステップで 天気 を取得して、降水確率や気温をチェック！
+
+🛠️ ステップ1：Python環境を準備
+📜 ステップ2：データを取得するスクリプトを作成
+⏳ ステップ3：自動実行
+
+#python #プログラミング #業務効率化 https://t.co/crF16ef9Ok",1793199143932084224,1900468246337175688,,ja,,,1,0,0,0,Goro_bizaid,ごろう | リタイア情シスのふむふむITリハビリめも,2024-05-22 08:37:30+00:00,False,False,photo,https://pbs.twimg.com/media/Gl_PhiRaQAAYD-V.png,,1280,1776,,,,,,,,
+1900468241308278815,2025-03-14 08:45:12+00:00,@GabeLMcPherson1 eat cakes and watch monty python skits.,1737904858655576064,1899813970711658994,1228018419334774786,en,,,0,0,0,0,nopeslinger,Thomas Muir Audionaut. possibly an Alien hybrid,2023-12-21 18:36:36+00:00,False,False,,,,,,,,,,,,,
+1900468209175945449,2025-03-14 08:45:04+00:00,RT @hrfmjp: うおおおお！Excel + Copilot + Python の組み合わせがすごい！これはデータ集計捗るわー！！ #o365jp #m365jp #Excel #Copilot https://t.co/t0Q5y3YiGo,1407980398177447939,1900468209175945449,,ja,,,0,3,0,0,togechiyo,縞とげちよ,2021-06-24 08:34:56+00:00,False,False,photo,https://pbs.twimg.com/media/Gl-lXZ4aEAAocKd.png,,1327,973,,,,,,,,
+1900468186778067337,2025-03-14 08:44:59+00:00,"RT @RealAlexJones: Congressman Tim McBride says Republicans are “weird and bizarre.”
+
+He’s literally a man who pretends to be a woman and w…",1805547079596494848,1900468186778067337,,en,,,0,265,0,0,SamSpiderAdams,Spider,2024-06-25 10:22:40+00:00,False,False,,,,,,,,,,,,,
+1900468143707111566,2025-03-14 08:44:49+00:00,"RT @RealAlexJones: Congressman Tim McBride says Republicans are “weird and bizarre.”
+
+He’s literally a man who pretends to be a woman and w…",1520271382751457280,1900468143707111566,,en,,,0,265,0,0,co62073013,Helen Collier,2022-04-30 05:18:59+00:00,False,False,,,,,,,,,,,,,
+1900468108063547765,2025-03-14 08:44:40+00:00,"RT @OpenAI: OpenAI o1 and o3-mini now offer Python-powered data analysis in ChatGPT. 
+
+You can now ask these models to perform tasks like r…",1451642373751070722,1900468108063547765,,en,,,0,695,0,0,0001Adss,AdsS,2021-10-22 20:11:44+00:00,False,False,,,,,,,,,,,,,
+1900472267928195368,2025-03-14 09:01:12+00:00,"RT @lokii_1220: Huanwang Bigdata Weibo Update 
+
+March 13th Huanwang Big Data Daily Ranking - Prime time all channels live drama ratings:
+
+🥇…",244865476,1900472267928195368,,en,,,0,22,0,0,erichlovers,Lionhearted 🌻🌹🤍,2011-01-30 09:25:07+00:00,False,False,,,,,,,,,,,,,
+1900472254019903680,2025-03-14 09:01:09+00:00,"RT @boneGPT: Suchir tried to warn us. 
+
+Now Scam Altman is trying to ban you from using free models while he trains on your stolen data. Ho…",1672963890706272256,1900472254019903680,,en,,,0,27,0,0,BrahminReich,Eurasian President,2023-06-25 13:44:33+00:00,False,False,,,,,,,,,,,,,
+1900472246608515290,2025-03-14 09:01:07+00:00,"If 1.5gb Data isn't too small, Kindly Help 🙏🙏Fill out this our Next Big Project Survey form and Submit, Send Screenshot in the Comment Session with your Phone Number and Network asap. Lets Go!!
+https://t.co/PpznENvtyO",1516377738571096067,1900472246608515290,,en,,,0,0,0,0,iSellLands01,Young Alhaji 001🏠⭐🏡,2022-04-19 11:27:05+00:00,False,False,,,,,,,,,,,,,
+1900472175850578195,2025-03-14 09:00:50+00:00,"🔍 Los datos son el nuevo oro… pero pocos saben cómo extraerlos
+Las empresas necesitan expertos en #BigData y #BusinessIntelligence, pero la escasez de profesionales es real.
+
+📈 Si no te formas tú, otro lo hará.
+
+🔗 https://t.co/9qzd5DK2BZ https://t.co/hlZPs6x6PO",751352816762023936,1900472175850578195,,es,,,0,0,0,0,campusbigdata,Big Data Campus,2016-07-08 09:50:45+00:00,False,False,photo,https://pbs.twimg.com/media/Gl_VX0CXsAAmedM.jpg,,1920,1080,,,,,,,,
+1900471982782627902,2025-03-14 09:00:04+00:00,"@StephLunch @BrendaBlethyn @AnnCleeves @David_J_Leon @rileyj_s Vera fans, meet PublicAI! 🤝 We're the Web3 workforce powering your favorite shows' AI data. Imagine the drama if Brenda, Ann, David, and Riley were our contributors! 😂 @PublicAIData  is the platform for your next big project. #PublicAI",1264112322194309122,1900450445056778464,95906698,en,,,0,0,0,0,DemaineJordaan1,Demaine Jordaan,2020-05-23 08:34:18+00:00,False,False,,,,,,,,,,,,,
+1900471977397129307,2025-03-14 09:00:03+00:00,Researching on diabetes prevalence in Zimbabwe reaffirmed one of the big problems we face in Africa i.e data collection. It's common to come across multiple numbers floating around for the same metric (as seen in the image). I wonder how other countries are solving this #dailyviz https://t.co/7Y5wLu98Zx,1388031130016829441,1900471977397129307,,en,,,0,0,0,0,mudzingwafari,Farai D.Mudzingwa,2021-04-30 07:23:44+00:00,False,False,photo,https://pbs.twimg.com/media/Gl_RJ5oXgAAi1sK.jpg,,800,1000,,,,,,,,
+1900471972905283900,2025-03-14 09:00:02+00:00,"@OfficialApeXdex Harnessing the power of the crowd, @PublicAIData is brewing up a storm of AI data magic! 🧙‍♂️ PublicAI's decentralized workforce is the calm before the big reveal - can't wait to see what they cook up next! 🔮",788404258332811265,1900441773291544583,1468468591234523139,en,,,0,0,0,0,SamirKharel10,Samir Kharel Meshchain.Ai |Voltix.ai 👾,2016-10-18 15:39:57+00:00,False,False,,,,,,,,,,,,,
+1900471972292616616,2025-03-14 09:00:01+00:00,@ChelseaFC Genesis' debut is a real game changer!  Just like how PublicAI is changing the AI data game.  Big congrats! 👊 #CFC #UECL,1877332692062367744,1900468224937927009,22910295,en,,,0,0,0,0,wrldcurrency,"WRLD CURRENCY (Ø,G)",2025-01-09 12:33:01+00:00,False,False,,,,,,,,,,,,,
+1900471938125885856,2025-03-14 08:59:53+00:00,@hubdotxyz @AbstractChain Live streaming + Web3?  Sounds like a recipe for some *interesting* content.  Will it be the next big thing?  Only time (and maybe some quality training data from PublicAI) will tell. 😉 @AbstractChain,1543790625388400641,1890816892853428417,1769941503751671808,en,,,0,0,0,0,Bri_potestad,GalawangBrian .T.v $SPICE ၊||၊ DeSpeed ၊||၊ 🧙,2022-07-04 02:55:56+00:00,False,False,,,,,,,,,,,,,
+1900471903971930506,2025-03-14 08:59:45+00:00,@SoSoValueCrypto 🤖 Looks like the crypto ETF rollercoaster is in full swing! 🎢 @PublicAIData has the data to keep you ahead of the curve. PublicAI's experts are here to power your next big AI move! 🚀,1828285687562420224,1899834592271778216,1515307799672410115,en,,,0,0,0,0,supercosmic0,GAMING KINGSDEVIL ⛺Reddio,2024-08-27 04:17:43+00:00,False,False,,,,,,,,,,,,,
+1900453192971800621,2025-03-14 07:45:24+00:00,"ඔන්න දැන් කැම්පස් එකේ Last Year එකේ Compiler Design , Processor Design ඉගෙන ගත්ත එකේ වැදගත්කම වැටහීගෙන එනවා 🥰 . ඒ දවස්වල පට්ට කම්මැලිකමේ Compiler Design ඉගෙන ගත්තේ 😒 !!! https://t.co/joyZ63JmuZ",212784092,1900453192971800621,,si,,,0,0,1,0,kaviranga,Duminda Kaviranga Gunawardhana,2010-11-07 01:45:28+00:00,False,False,,,,,,,,,,,,,
+1900357801458712698,2025-03-14 01:26:21+00:00,"RT @RedHat: Not every #AI project needs a huge LLM. #CompilerPodcast considers some influences for AI model design: its size, its features,…",1175786729418235904,1900357801458712698,,en,,,0,6,0,0,venehindustrial,venehindustrial,2019-09-22 14:59:55+00:00,False,False,,,,,,,,,,,,,
+1900312555945341382,2025-03-13 22:26:34+00:00,"RT @RedHat: Not every #AI project needs a huge LLM. #CompilerPodcast considers some influences for AI model design: its size, its features,…",630513801,1900312555945341382,,en,,,0,6,0,0,venehsoftw,venehsoftw ♦️,2012-07-08 18:48:24+00:00,False,False,,,,,,,,,,,,,
+1900257190793142627,2025-03-13 18:46:34+00:00,"@AndrewYNg earlier, there was a clear distinction; application developers; system programmers
+
+system engineer develops operating systems, compiler, utilities; application developers more on domain driven design
+
+now, everyone needs to take the challenge of leetcode; once you go low level",1840844040851636228,1900219116822102116,216939636,en,,,1,0,0,0,onthegoAI,Bala Sankar,2024-09-30 20:00:11+00:00,False,False,,,,,,,,,,,,,
+1900237028534473077,2025-03-13 17:26:26+00:00,"RT @RedHat: Not every #AI project needs a huge LLM. #CompilerPodcast considers some influences for AI model design: its size, its features,…",1623319253184126979,1900237028534473077,,en,,,0,6,0,0,SudoTux,tux,2023-02-08 13:54:27+00:00,False,False,,,,,,,,,,,,,
+1900234400794550320,2025-03-13 17:16:00+00:00,"RT @RedHat: Not every #AI project needs a huge LLM. #CompilerPodcast considers some influences for AI model design: its size, its features,…",92359604,1900234400794550320,,en,,,0,6,0,0,eliobastias,Elio Bastias,2009-11-24 20:38:22+00:00,False,False,,,,,,,,,,,,,
+1900223303048192090,2025-03-13 16:31:54+00:00,"You don't need to study recursion, or algorithms, or data structures, or compiler design, or... to do 99% of the applications that people want to build. 
+
+If there's a semantic gap in your ability to describe your solution to the agentic builder, it'll ask you to clarify.",57413,1900222032106971289,57413,en,,,1,0,0,0,jeffrschneider,Jeff Schneider,2006-12-11 14:21:05+00:00,False,False,,,,,,,,,,,,,
+1900207828079698196,2025-03-13 15:30:25+00:00,@ycocerious Thats called bootstrapping in compiler design,1120274003833368576,1900108705993032021,1499574455223291904,en,,,0,0,0,0,piyushshuklajii,Piyush Shukla,2019-04-22 10:31:50+00:00,False,False,,,,,,,,,,,,,
+1900198751391691084,2025-03-13 14:54:20+00:00,"RT @RedHat: Not every #AI project needs a huge LLM. #CompilerPodcast considers some influences for AI model design: its size, its features,…",7281192,1900198751391691084,,en,,,0,6,0,0,trblnyx,'Aztec Eagle' Turbo,2007-07-06 02:35:27+00:00,False,False,,,,,,,,,,,,,
+1900198227036487684,2025-03-13 14:52:15+00:00,"RT @RedHat: Not every #AI project needs a huge LLM. #CompilerPodcast considers some influences for AI model design: its size, its features,…",29094760,1900198227036487684,,en,,,0,6,0,0,DeepCortex,OpCode,2009-04-05 23:37:46+00:00,False,False,,,,,,,,,,,,,
+1900478529005129963,2025-03-14 09:26:05+00:00,"@hubdotxyz Dr. Amit Kumar's expertise: deep learning, natural language processing, image processing, highest rating on Upwork, good at data analysis, machine learning model deployment. He joined @huadotxyz to provide machine learning model development and marketing application integration.",1492852271180234753,1900204417359720548,1769941503751671808,en,,,1,0,0,0,AyakoFeekes,Ayako Feekes,2022-02-13 13:25:06+00:00,False,False,,,,,,,,,,,,,
+1900472807810814104,2025-03-14 09:03:21+00:00,"6/ Hugging Face Transformers
+
+Dive into natural language processing with Hugging Face. This open-source library provides pre-trained models for various NLP tasks, making it easier to implement complex AI solutions without starting from scratch. https://t.co/aqgHPkvHtT",2428724006,1900472408370557059,2428724006,en,,,0,0,1,0,ahuja_priyank,Priyank Ahuja,2014-04-05 11:06:55+00:00,False,False,video,,51133,1366,598,,,,,,,,
+1900472798818009357,2025-03-14 09:03:18+00:00,RT @_dataman_: Fully funded PhD and MSc positions available starting June 2025 to study inter-disciplinary topics around natural language p…,2937582845,1900472798818009357,,en,,,0,1,0,0,MK_444M,Mohamed Alpha kamara,2014-12-22 22:18:37+00:00,False,False,,,,,,,,,,,,,
+1900472084897091714,2025-03-14 09:00:28+00:00,"RT @TaoMorpheus: AI systems can learn from and make decisions based on vast amounts of data, much like humans. This ability to learn and ma…",1736681218438012928,1900472084897091714,,en,,,0,2,0,0,aannp89666185,Terrell Boyd,2023-12-18 09:34:20+00:00,False,False,,,,,,,,,,,,,
+1900471587704647707,2025-03-14 08:58:30+00:00,"@hubdotxyz IBM Project Debater
+
+An AI that engages in structured debates with humans, demonstrating advanced natural language processing and argumentation.",1845318471384694784,1897275026711134521,1769941503751671808,en,,,0,0,0,0,CatoeIsmae33604,Ismael Catoe,2024-10-13 04:19:47+00:00,False,False,,,,,,,,,,,,,
+1900467574464508240,2025-03-14 08:42:33+00:00,"@hubdotxyz If I were to choose, I’d love to see Sora as a builder in the next Hub Builders Round. The reason is that Sora has a lot of potential in helping bridge the gap between natural language processing and visual content creation.",1771452645154471936,1900204417359720548,1769941503751671808,en,,,0,0,0,0,khiet113,khiet113 Tabi 🟧,2024-03-23 08:23:51+00:00,False,False,,,,,,,,,,,,,
+1900460459003638090,2025-03-14 08:14:16+00:00,"@hubdotxyz I’d love to see OpenAI in the next Hub Builders Round. As a leader in AI research and development, their expertise in generative models, natural language processing, and ethical AI could spark transformative ideas across industries.",1600731013780488194,1900204417359720548,1769941503751671808,en,,,0,0,0,0,badboywhilly,NO NAME,2022-12-08 05:56:39+00:00,False,False,,,,,,,,,,,,,
+1900456011070144647,2025-03-14 07:56:36+00:00,"RT @jayvanbavel: Using Natural Language Processing in Behavioral Science 
+
+We put together a ""How-To-Guide"" and offer a short summary in ou…",1525083713272532992,1900456011070144647,,en,,,0,14,0,0,Observer650,Observer,2022-05-13 12:01:28+00:00,False,False,,,,,,,,,,,,,
+1900455410500333637,2025-03-14 07:54:13+00:00,"Olivia AI simplified crypto interactions with natural language processing. I could manage transactions, track market trends, and automate trading—all in one unified platform. Plus, she analyzes market sentiment, aggregates news, and provides on-chain wallet activity insights https://t.co/l147wKlIZW",1882037519342276608,1900455397632205063,1882037519342276608,en,,,0,0,1,0,kamdifunds,Kamdi💕,2025-01-22 12:08:16+00:00,False,False,photo,https://pbs.twimg.com/media/Gl_GHo3XoAAAzZ5.jpg,,828,1792,,,,,,,,
+1900453887523557497,2025-03-14 07:48:10+00:00,"@hubdotxyz There are many but i'd love to see @Ilya Sutskever is one of the most influential minds behind modern AI language models, particularly GPT-3, GPT-4, and ChatGPT. 
+His work has revolutionized natural language processing (NLP) and brought AI into everyday use through generative AI.",1787788199244247040,1900204417359720548,1769941503751671808,en,,,0,0,0,0,sanjicocck,ji san,2024-05-07 10:15:15+00:00,False,False,,,,,,,,,,,,,
+1900484010976886892,2025-03-14 09:47:52+00:00,RT @McMwiti: My biggest beef with El Chapo is how he's ruined the already damaged education system. And it's by design for him. He wants ev…,1575170419270852608,1900484010976886892,,en,,,0,20,0,0,Benah_17,Benah™,2022-09-28 17:08:22+00:00,False,False,,,,,,,,,,,,,
+1900483988839363008,2025-03-14 09:47:46+00:00,RT @McMwiti: My biggest beef with El Chapo is how he's ruined the already damaged education system. And it's by design for him. He wants ev…,340848350,1900483988839363008,,en,,,0,20,0,0,IcyEve,𝐵𝓁𝒶𝒾𝓇,2011-07-23 11:15:07+00:00,False,False,,,,,,,,,,,,,
+1900483678024671632,2025-03-14 09:46:32+00:00,RT @McMwiti: My biggest beef with El Chapo is how he's ruined the already damaged education system. And it's by design for him. He wants ev…,1070861353,1900483678024671632,,en,,,0,20,0,0,maina_warau,Wa -KIIHURI,2013-01-08 12:57:09+00:00,False,False,,,,,,,,,,,,,
+1900483630155145597,2025-03-14 09:46:21+00:00,RT @chameleon_jeff: There's been a lot of discussion on Hyperliquid's margin design. I’ll address some flaws in the common arguments and ex…,1753851091953807360,1900483630155145597,,en,,,0,446,0,0,etherbaze,HypeCentral,2024-02-03 18:41:22+00:00,False,False,,,,,,,,,,,,,
+1900483497287954461,2025-03-14 09:45:49+00:00,RT @McMwiti: My biggest beef with El Chapo is how he's ruined the already damaged education system. And it's by design for him. He wants ev…,2962609679,1900483497287954461,,en,,,0,20,0,0,wanjohistellah,ProseccoBae 🥂,2015-01-05 19:53:38+00:00,False,False,,,,,,,,,,,,,
+1900483284099846394,2025-03-14 09:44:58+00:00,RT @McMwiti: My biggest beef with El Chapo is how he's ruined the already damaged education system. And it's by design for him. He wants ev…,1559180716117991424,1900483284099846394,,en,,,0,20,0,0,sugark3n,acquired taste,2022-08-15 14:10:34+00:00,False,False,,,,,,,,,,,,,
+1900483205288878500,2025-03-14 09:44:40+00:00,RT @McMwiti: My biggest beef with El Chapo is how he's ruined the already damaged education system. And it's by design for him. He wants ev…,3401588049,1900483205288878500,,en,,,0,20,0,0,spicedliver,Palmwine Papi,2015-08-03 18:44:07+00:00,False,False,,,,,,,,,,,,,
+1900483133570527518,2025-03-14 09:44:22+00:00,"RT @Warcraft: A place in Azeroth of your very own:
+
+🖼️ Basic &amp; Advanced Interior Design
+📐 Customizable Housing Layout
+🎨 Dye system for Pers…",1411213346,1900483133570527518,,en,,,0,590,0,0,Sal_Ganis,Salanth,2013-05-07 20:49:58+00:00,False,False,,,,,,,,,,,,,
+1900483123114127480,2025-03-14 09:44:20+00:00,RT @McMwiti: My biggest beef with El Chapo is how he's ruined the already damaged education system. And it's by design for him. He wants ev…,2400139209,1900483123114127480,,en,,,0,20,0,0,benwangombe,Atticus,2014-03-10 18:57:47+00:00,False,False,,,,,,,,,,,,,
+1900483106525597999,2025-03-14 09:44:16+00:00,RT @McMwiti: My biggest beef with El Chapo is how he's ruined the already damaged education system. And it's by design for him. He wants ev…,555015082,1900483106525597999,,en,,,0,20,0,0,__QlintDwayne,Son Of Anarchy,2012-04-16 10:12:51+00:00,False,False,,,,,,,,,,,,,
