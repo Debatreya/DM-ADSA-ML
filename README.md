@@ -7,3 +7,7 @@ Data Mining , Advanced Data Structures and Algorithm, Machine Learning
 
 # 6th Sem Labwork
 - [x] Deep Learning: checkout to branch -> (dl)
+- [x] Big Data Analytics -> (bda)
+- [ ] Image Processing -> ‼️Not included (on MatLab) 
+
+== [My Kaggle Profile](https://www.kaggle.com/debatreyadas)
